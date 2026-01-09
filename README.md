@@ -98,5 +98,5 @@ This project helped me gain hands-on experience with:
 
 Contact
 
-* GitHub: Your GitHub Username
+* GitHub: caishitha
 * Email: caishitha@gmail.com
