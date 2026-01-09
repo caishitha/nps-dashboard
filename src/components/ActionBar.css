@@ -1,0 +1,101 @@
+ .action-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: white;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.left-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.right-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.customer-count {
+  text-align: left;
+}
+
+.count-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 4px 0;
+}
+
+.count-subtitle {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+}
+.select-info {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  color: #333;
+  padding: 0; 
+  background: transparent; 
+  border: none; 
+  border-radius: 0; 
+  margin-right: 10px;
+}
+
+.select-label {
+  color: #333;
+}
+
+.select-count {
+  font-weight: 600;
+  color: #1a56db;
+  min-width: 20px;
+  text-align: center;
+}
+.action-bar .right-actions button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid;
+}
+.refresh-button {
+  background: white;
+  border-color: #d0d5dd;
+  color: #344054;
+}
+
+.refresh-button:hover {
+  background: #f9fafb;
+  border-color: #98a2b3;
+}
+.blue-button {
+  background: #021bd8;
+  border-color: #021bd8;
+  color: white;
+}
+.blue-button:hover {
+  background: #021bd8;
+  border-color: #021bd8;
+  color: white;
+}
+
+.button-icon {
+  font-size: 16px;
+}
+.blue-button .button-icon {
+  color: white;
+}
+.refresh-button .button-icon {
+  color: #344054;
+}
